@@ -1,0 +1,14 @@
+{
+    "name": "sample-opensearch-functions",
+    "version": "0.1.0",
+    "license": "UNLICENSED",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Fawad Mazhar",
+    "dependencies": {
+      "aws-sdk": "^2.1193.0"
+    }
+  }
+  
