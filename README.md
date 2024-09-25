@@ -1,4 +1,4 @@
-# Sample Openseach Service
+# Sample Opensearch Service
 ---
 
 Fawad Mazhar <fawadmazhar@hotmail.com> 2024
