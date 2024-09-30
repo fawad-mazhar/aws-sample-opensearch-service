@@ -41,26 +41,34 @@ This project connects several AWS services to provide a complete OpenSearch solu
 
 To scale the OpenSearch data nodes, simply update the cluster capacity configuration and redeploy. The project is designed to easily accommodate scaling based on the workload.
 
+## Deployment
+<details>
+  <summary>Pre-requisites</summary>
 
-## Pre-requisites
   - 🔧 AWS CLI Installed & Configured 👉 [Get help here](https://aws.amazon.com/cli/)
   - 🔧 Node.js 18.x+
   - 🔧 AWS CDK 👉 [Get help here](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html) 
   - 🔧 A VPC deployed [Get help here](https://github.com/fawad1985/aws-sample-vpc)
+</details>
 
-## Installation
-Run command:
-```bash
+<details>
+  <summary>Installation</summary>
+  Run command:
+
+  ```bash
   npm install
   npm run bootstrap:dev
-```
+  ```
+</details>
+  
+<details>
+  <summary>Deploying (eu-west-1)</summary>
+  Run command:
 
-
-## Deploying (eu-west-1)
-Run command:
-```bash
+  ```bash
   npm run deploy:dev
-```
+  ```
+</details>
 
 
 ## License
